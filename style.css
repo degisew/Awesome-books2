@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.super-container {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  column-gap: 20px;
+}
+
+.nav-menu a {
+  color: black;
+  text-decoration-line: none;
+  font-size: 20px;
+}
+
+#list,
+#add {
+  border-right: 3px solid black;
+  padding-right: 15px;
+}
+
+.nav-menu a:focus {
+  color: rgb(18, 126, 234);
+}
+
+#date-time-div {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.dynamic-contents-div {
+  min-height: 60px;
+  text-align: center;
+}
+
+.list-div {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  min-height: 30px;
+}
+
+#list-heading {
+  align-self: center;
+}
+
+.inner-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  font-size: 25px;
+}
+
+.inner-container:nth-child(odd) {
+  background-color: rgba(160, 156, 156, 0.6);
+}
+
+.remove-btn {
+  background-color: white;
+  border: 3px solid black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.contact-me {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.add-div {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  row-gap: 15px;
+}
+
+.input {
+  height: 25px;
+  border: 3px solid black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.input::placeholder {
+  font-style: italic;
+}
+
+.add-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  width: 70px;
+  height: 40px;
+  border: 3px solid black;
+  border-right: 4px solid black;
+  border-bottom: 4px solid black;
+  background-color: inherit;
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 350px;
+  border: 4px solid black;
+  padding: 10px;
+}
